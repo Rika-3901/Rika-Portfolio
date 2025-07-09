@@ -18,7 +18,7 @@ const playfair = Playfair_Display({
 
 export const metadata = {
   title: "Rika | Personal Portfolio",
-  description: "Ricardo is a full-stack developer with 8 years of experience.",
+  description: "Showcasing Project & Skill in Tech",
 };
 
 export default function RootLayout({

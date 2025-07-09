@@ -52,7 +52,7 @@ export default function Intro() {
           Hello, I’m <span className="font-semibold">Rika</span>.
         </p>
         <p className="text-3xl sm:text-5xl font-medium mt-2 font-playfair">
-          Web Developer And Informatics Engineering Student
+          Web Developer and Informatics Engineering Student
         </p>
         <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mt-2 italic font-playfair">
           I’m passionate about creating clean and functional websites, and I love designing intuitive user interfaces. I'm currently exploring web development and UI/UX design as part of my journey in tech.
