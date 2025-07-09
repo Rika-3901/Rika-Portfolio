@@ -29,7 +29,7 @@ export default function About() {
         <p>
           Outside of tech, I enjoy <span className="font-medium">drawing</span> as a creative outlet, and it has
           naturally supported my interest in design. Recently, I’ve also found a love for
-          <span className="font-medium"> chess</span> — a game that sharpens my focus and strategic thinking,
+          <span className="font-medium"> chess,</span> a game that sharpens my focus and strategic thinking,
           which I find valuable in both coding and design.
         </p>
     </motion.section>
