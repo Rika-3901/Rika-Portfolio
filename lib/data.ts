@@ -2,106 +2,74 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import lokamarketImg from "@/public/lokamarket.jpg";
+import historeImg from "@/public/histore.png";
+import aniboxImg from "@/public/anibox.png";
 
 export const links = [
-  {
-    name: "Home",
-    hash: "#home",
-  },
-  {
-    name: "About",
-    hash: "#about",
-  },
-  {
-    name: "Projects",
-    hash: "#projects",
-  },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
+  { name: "Home", hash: "#home" },
+  { name: "About", hash: "#about" },
+  { name: "Projects", hash: "#projects" },
+  { name: "Skills", hash: "#skills" },
+  { name: "Experience", hash: "#experience" },
+  { name: "Contact", hash: "#contact" },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Informatics Engineering Student",
+    location: "Universitas Indraprasta PGRI",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Currently studying Informatics Engineering with a strong focus on web development and UI/UX design through both academic and real-world projects.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2023 – present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Research & Development Division – Informatics Engineering Student Association",
+    location: "Informatics Engineering Student Association",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Active in the Research and Development division. Contributed to organizing programs such as IT Talks, and Klik Fest Web Dev 2025, a seminar, bootcamp, and expo.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2024 – present",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "PKM Smart Village – Kampus Merdeka Program",
+    location: "Desa Ciherang, Kec. Pacet, Kab. Cianjur",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developed an information system for Ciherang Village using Smart Mobility to promote tourism, with a virtual tour website.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2024",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
-    description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+    title: "LokaMarket E-Commerce",
+    description: "A full-stack e-commerce website for local businesses.",
+    tags: ["React", "Next.js", "MongoDB", "Tailwind"],
+    imageUrl: lokamarketImg,
+    liveDemoUrl: "https://loka-market-2dfh.vercel.app/",
+    codeUrl: "https://github.com/Rika-3901/LokaMarket",
   },
   {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    title: "Hi-Store",
+    description: "Front-end of a web application dedicated to gaming products.",
+    tags: ["CSS", "HTML", "JavaScript", "Figma"],
+    imageUrl: historeImg,
+    liveDemoUrl: "https://hi-store-web.vercel.app/",
+    codeUrl: "https://github.com/Rika-3901/Hi-Store-web",
   },
   {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    title: "AniBox",
+    description: "UI/UX design for an anime streaming application.",
+    tags: ["Figma"],
+    imageUrl: aniboxImg,
+    liveDemoUrl: "https://www.figma.com/proto/CNB18TN8VylQCSjC1hGFFS/Untitled?node-id=0-1",
+    codeUrl: "https://www.figma.com/design/CNB18TN8VylQCSjC1hGFFS/Untitled?node-id=0-1&t=tLERWNeOfFi26D8L-1n",
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js",
+  "Node.js", "Git", "Tailwind", "MongoDB", "PostgreSQL", "Figma", "Framer Motion", "Github",
 ] as const;

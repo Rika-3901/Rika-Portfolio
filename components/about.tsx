@@ -18,32 +18,20 @@ export default function About() {
       id="about"
     >
       <SectionHeading>About me</SectionHeading>
-      <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
+        <p className="mb-3">
+          I’m an <span className="font-medium">Informatics Engineering student</span> with a strong passion for technology,
+          especially in web development and UI/UX design. I love creating websites that are not only functional
+          but also <span className="italic">clean</span>, <span className="italic">visually pleasing</span>, and
+          easy to use. My interest in UI/UX helps me pay attention to the little details that make a big difference
+          in user experience.
+        </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+        <p>
+          Outside of tech, I enjoy <span className="font-medium">drawing</span> as a creative outlet, and it has
+          naturally supported my interest in design. Recently, I’ve also found a love for
+          <span className="font-medium"> chess</span> — a game that sharpens my focus and strategic thinking,
+          which I find valuable in both coding and design.
+        </p>
     </motion.section>
   );
 }
